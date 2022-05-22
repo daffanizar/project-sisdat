@@ -15,6 +15,7 @@
 		<ul>
 			<li><a href="pasien.php">Daftarkan Pasien</a></li>
 			<li><a href="pasien_list.php">Pasien Terdata</a></li>
+			<li><a href="dokter_list.php">Dokter tersedia</a></li>
 		</ul>
 	</nav>
 	
