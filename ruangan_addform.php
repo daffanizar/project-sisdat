@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Pengisian Data Kamar | Rumah Sakit Jaya</title>
+	<link rel="stylesheet"  href="style.css">
 </head>
 
 <body>

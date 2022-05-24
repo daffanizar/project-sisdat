@@ -14,6 +14,7 @@
 	
 	<nav>
 		<a href="ruangan_addform.php">[+] Tambah Baru</a>
+		<link rel="stylesheet"  href="style.css">
 	</nav>
 	
 	<br>

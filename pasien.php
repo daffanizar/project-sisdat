@@ -4,7 +4,7 @@
 	<title>Pengisian Data Pasien | Rumah Sakit Jaya</title>
 </head>
 
-<body>
+<body id="bg-form-pasien">
 	<header>
 		<h3>Formuliar Data Pasien</h3>
 	</header>

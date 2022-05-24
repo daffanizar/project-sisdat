@@ -2,14 +2,16 @@
 <html>
 <head>
 	<title>PASIEEEEEEEN | Rumah Sakit Jaya</title>
+	<link rel="stylesheet"  href="style.css">
 </head>
 
-<body>
+<body id="bg-masuk">
 	<header>
 		<h3>Pendaftaran Pasien</h3>
 		<h1>Rumah Sakit Jaya</h1>
 	</header>
 	
+	<div class="container"></div>
 	<h4>Menu</h4>
 	<nav>
 		<ul>
@@ -20,7 +22,7 @@
 			<li><a href="obat_list.php">Obat Tersedia</a></li>
 		</ul>
 	</nav>
-	
+	</div>
 	
 	<?php if(isset($_GET['status'])): ?>
 	<p>

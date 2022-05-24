@@ -27,6 +27,7 @@ if( mysqli_num_rows($query) < 1 ){
 <html>
 <head>
 	<title>Formulir Edit Dokter | Rumah Sakit Jaya</title>
+	<link rel="stylesheet"  href="style.css">
 </head>
 
 <body>

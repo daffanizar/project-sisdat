@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Pengisian Data Dokter | Rumah Sakit Jaya</title>
+	<title>Pengisian Data Dokter | Rumah Sakit Jaya</title>	
+	<link rel="stylesheet"  href="style.css">
 </head>
 
 <body>

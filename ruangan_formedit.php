@@ -27,6 +27,7 @@ if( mysqli_num_rows($query) < 1 ){
 <html>
 <head>
 	<title>Formulir Edit Ruangan | SMK Coding</title>
+	<link rel="stylesheet"  href="style.css">
 </head>
 
 <body>

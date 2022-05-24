@@ -4,7 +4,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Pendataan Dokter | Rumah Sakit Jaya</title>
+	<title>Pendataan Dokter | Rumah Sakit Jaya</title>	
+	<link rel="stylesheet"  href="style.css">
 </head>
 
 <body>
