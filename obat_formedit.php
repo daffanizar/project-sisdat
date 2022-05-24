@@ -13,7 +13,7 @@ $id = $_GET['id'];
 // buat query untuk ambil data dari database
 $sql = "SELECT * FROM obat WHERE id_obat='$id'";
 $query = mysqli_query($db, $sql);
-$siswa = mysqli_fetch_assoc($query);
+$obat = mysqli_fetch_assoc($query);
 
 // jika data yang di-edit tidak ditemukan
 if( mysqli_num_rows($query) < 1 ){
@@ -38,10 +38,10 @@ if( mysqli_num_rows($query) < 1 ){
 		
 		<fieldset>
 			
-			<input type="hidden" name="id" value="<?php echo $siswa['id_obat'] ?>" />
+			<input type="hidden" name="id" value="<?php echo $obat['id_obat'] ?>" />
 		<p>
-			<label for="nama_obat">nama: </label>
-			<input type="text" name="nama" placeholder="nama obat" value="<?php echo $siswa['nama'] ?>" />
+			<label for="nama_obat">Nama Obat : </label>
+			<input type="text" name="nama_obat" placeholder="nama obat" value="<?php echo $obat['nama_obat'] ?>" />
 		</p>
 		
 		<p>

@@ -23,7 +23,6 @@
 		<tr>
 			<th>id_obat</th>
 			<th>nama_obat</th>
-			<th>dosis</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -32,15 +31,15 @@
 		$sql = "SELECT * FROM obat";
 		$query = mysqli_query($db, $sql);
 		
-		while($siswa = mysqli_fetch_array($query)){
+		while($obat = mysqli_fetch_array($query)){
 			echo "<tr>";
 			
-			echo "<td>".$siswa['id_obat']."</td>";
-			echo "<td>".$siswa['nama_obat']."</td>";
+			echo "<td>".$obat['id_obat']."</td>";
+			echo "<td>".$obat['nama_obat']."</td>";
 			
 			echo "<td>";
-			echo "<a href='obat_formedit.php?id=".$siswa['id_obat']."'>Edit</a> | ";
-			echo "<a href='obat_hapus.php?id=".$siswa['id_obat']."'>Hapus</a>";
+			echo "<a href='obat_formedit.php?id=".$obat['id_obat']."'>Edit</a> | ";
+			echo "<a href='obat_hapus.php?id=".$obat['id_obat']."'>Hapus</a>";
 			echo "</td>";
 			
 			echo "</tr>";
@@ -49,8 +48,10 @@
 		
 	</tbody>
 	</table>
-	
 	<p>Total: <?php echo mysqli_num_rows($query) ?></p>
+	<nav>
+		<a href="index.php">[<-] Kembali ke Menu</a>
+	</nav>
 	
 	</body>
 </html>

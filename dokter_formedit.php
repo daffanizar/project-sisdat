@@ -13,7 +13,7 @@ $id = $_GET['id'];
 // buat query untuk ambil data dari database
 $sql = "SELECT * FROM dokter WHERE id_dokter='$id'";
 $query = mysqli_query($db, $sql);
-$siswa = mysqli_fetch_assoc($query);
+$dokter = mysqli_fetch_assoc($query);
 
 // jika data yang di-edit tidak ditemukan
 if( mysqli_num_rows($query) < 1 ){
@@ -26,7 +26,7 @@ if( mysqli_num_rows($query) < 1 ){
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Formulir Edit Siswa | SMK Coding</title>
+	<title>Formulir Edit Dokter | Rumah Sakit Jaya</title>
 </head>
 
 <body>
@@ -38,14 +38,14 @@ if( mysqli_num_rows($query) < 1 ){
 		
 		<fieldset>
 			
-			<input type="hidden" name="id" value="<?php echo $siswa['id_dokter'] ?>" />
+			<input type="hidden" name="id" value="<?php echo $dokter['id_dokter'] ?>" />
 		<p>
 			<label for="nama_dokter">Nama: </label>
-			<input type="text" name="nama" placeholder="nama lengkap" value="<?php echo $siswa['nama_dokter'] ?>" />
+			<input type="text" name="nama" placeholder="nama lengkap" value="<?php echo $dokter['nama_dokter'] ?>" />
 		</p>
 		<p>
 			<label for="spesialis">Spesialis : </label>
-			<input type="text" name="spesialis" placeholder="spesialis" value="<?php echo $siswa['spesialis'] ?>" />
+			<input type="text" name="spesialis" placeholder="spesialis" value="<?php echo $dokter['spesialis'] ?>" />
 		</p>
 		<p>
 			<input type="submit" value="Simpan" name="simpan" />

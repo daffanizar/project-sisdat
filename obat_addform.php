@@ -20,7 +20,7 @@
 
 		<p>
 			<label for="nama_obat">Nama: </label>
-			<input type="text" name="nama" placeholder="nama obat" />
+			<input type="text" name="nama_obat" placeholder="nama obat" />
 		</p>
 		
 		<p>

@@ -34,6 +34,18 @@
 		<p>
 			<label for="penyakit">Penyakit: </label>
 			<input type="text" name="penyakit" placeholder="penyakit" />
+		</p>		
+		<p>
+			<label for="id_dokter">ID Dokter: </label>
+			<input type="text" name="id_dokter" placeholder="id_dokter"  />
+		</p>
+		<p>
+			<label for="id_obat">ID Obat: </label>
+			<input type="text" name="id_obat" placeholder="id_obat" />
+		</p>
+		<p>
+			<label for="id_kamar">ID Kamar: </label>
+			<input type="text" name="id_kamar" placeholder="id_kamar" />
 		</p>
 		<p>
 			<input type="submit" value="Daftar" name="daftar" />

@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Pendaftaran Siswa Baru | SMK Coding</title>
+	<title>Pendataan Dokter | Rumah Sakit Jaya</title>
 </head>
 
 <body>
@@ -33,17 +33,17 @@
 		$sql = "SELECT * FROM dokter";
 		$query = mysqli_query($db, $sql);
 		
-		while($siswa = mysqli_fetch_array($query)){
+		while($dokter = mysqli_fetch_array($query)){
 			echo "<tr>";
 			
-			echo "<td>".$siswa['id_dokter']."</td>";
-			echo "<td>".$siswa['nama_dokter']."</td>";
-			echo "<td>".$siswa['spesialis']."</td>";
+			echo "<td>".$dokter['id_dokter']."</td>";
+			echo "<td>".$dokter['nama_dokter']."</td>";
+			echo "<td>".$dokter['spesialis']."</td>";
 
 			
 			echo "<td>";
-			echo "<a href='dokter_formedit.php?id=".$siswa['id_dokter']."'>Edit</a> | ";
-			echo "<a href='dokter_hapus.php?id=".$siswa['id_dokter']."'>Hapus</a>";
+			echo "<a href='dokter_formedit.php?id=".$dokter['id_dokter']."'>Edit</a> | ";
+			echo "<a href='dokter_hapus.php?id=".$dokter['id_dokter']."'>Hapus</a>";
 			echo "</td>";
 			
 			echo "</tr>";
@@ -52,8 +52,10 @@
 		
 	</tbody>
 	</table>
-	
 	<p>Total: <?php echo mysqli_num_rows($query) ?></p>
+	<nav>
+		<a href="index.php">[<-] Kembali ke Menu</a>
+	</nav>
 	
 	</body>
 </html>

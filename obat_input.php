@@ -10,7 +10,7 @@ if(isset($_POST['daftar'])){
 	$nama = $_POST['nama_obat'];
 	
 	// buat query
-	$sql = "INSERT INTO obat (id_obat, nama) VALUE ('$id', '$nama')";
+	$sql = "INSERT INTO obat (id_obat, nama_obat) VALUE ('$id', '$nama')";
 	$query = mysqli_query($db, $sql);
 	
 	// apakah query simpan berhasil?
