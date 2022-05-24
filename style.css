@@ -15,11 +15,16 @@ body{
 }
 
 header{
-    border: 1px solid;
+    border: 10px solid;
     background-color: beige;
-    color:brown;
+    color:#04AA6D;
 }
 .container{
     width: 80%;
     margin:0 auto;
 }
+
+th {
+    background-color: #04AA6D;
+    color: white;
+  }

@@ -5,6 +5,7 @@
 <html>
 <head>
 	<title>Detail Pasien | Rumah Sakit Jayag</title>
+	<link rel="stylesheet"  href="style.css">
 </head>
 
 <body>
@@ -12,9 +13,6 @@
 		<h3>Pasien yang Terdata</h3>
 	</header>
 	
-	<nav>
-		<a href="pasien.php">[+] Tambah Baru</a>
-	</nav>
 	
 	<br>
 	
@@ -24,10 +22,9 @@
 			<th>No</th>
 			<th>Nama</th>
 			<th>Penyakit</th>
-			<th>ID Dokter</th>
+			<th>Nama Dokter</th>
 			<th>ID Kamar</th>
-			<th>ID Obat</th>
-			<th>Tindakan</th>
+			<th>Nama Obat</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -51,11 +48,7 @@
 			echo "<td>".$pasien['id_kamar']."</td>";
 			echo "<td>".$pasien['nama_obat']."</td>";
 
-			
-			echo "<td>";
-			echo "<a href='form-edit.php?id=".$pasien['id_pasien']."'>Edit</a> | ";
-			echo "<a href='hapus.php?id=".$pasien['id_pasien']."'>Hapus</a> |";
-			echo "</td>";
+	
 			
 			echo "</tr>";
 		}		

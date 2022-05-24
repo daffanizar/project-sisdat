@@ -32,7 +32,7 @@ if( mysqli_num_rows($query) < 1 ){
 
 <body>
 	<header>
-		<h3>Formulir Edit Siswa</h3>
+		<h3>Formulir Edit Data Pasien</h3>
 	</header>
 	
 	<form action="pasien_edit.php" method="POST">
@@ -63,6 +63,18 @@ if( mysqli_num_rows($query) < 1 ){
 		<p>
 			<label for="penyakit">Penyakit: </label>
 			<input type="text" name="penyakit" placeholder="penyakit" value="<?php echo $pasien['penyakit'] ?>" />
+		</p>
+		<p>
+		<label for="id_dokter">ID Dokter: </label>
+			<input type="text" name="id_dokter" placeholder="id_dokter" value="<?php echo $pasien['id_dokter'] ?>"  />
+		</p>
+		<p>
+			<label for="id_obat">ID Obat: </label>
+			<input type="text" name="id_obat" placeholder="id_obat" value="<?php echo $pasien['id_obat'] ?>"  />
+		</p>
+		<p>
+			<label for="id_kamar">ID Kamar: </label>
+			<input type="text" name="id_obat" placeholder="id_obat" value="<?php echo $pasien['id_kamar'] ?>"  />
 		</p>
 		<p>
 			<input type="submit" value="Simpan" name="simpan" />

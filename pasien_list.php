@@ -28,9 +28,9 @@
 			<th>Jenis Kelamin</th>
 			<th>Tanggal Lahir</th>
 			<th>Penyakit</th>
-			<th>Nama Dokter</th>
+			<th>ID Dokter</th>
 			<th>ID Kamar</th>
-			<th>Nama Obat</th>
+			<th>ID Obat</th>
 			<th>Tindakan</th>
 		</tr>
 	</thead>
