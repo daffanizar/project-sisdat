@@ -38,17 +38,14 @@ if( mysqli_num_rows($query) < 1 ){
 	<form action="obat_edit.php" method="POST">
 		
 		<fieldset>
-			
+		<div class="input">		
 			<input type="hidden" name="id" value="<?php echo $obat['id_obat'] ?>" />
-		<p>
+
 			<label for="nama_obat">Nama Obat : </label>
 			<input type="text" name="nama_obat" placeholder="nama obat" value="<?php echo $obat['nama_obat'] ?>" />
-		</p>
-		
-		<p>
-			<input type="submit" value="Simpan" name="simpan" />
-		</p>
-		
+
+			<input type="submit" class = "button" value="Simpan" name="simpan" />
+		</div>
 		</fieldset>
 		
 	

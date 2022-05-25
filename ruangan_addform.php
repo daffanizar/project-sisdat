@@ -13,18 +13,16 @@
 	<form action="ruangan_input.php" method="POST">
 		
 		<fieldset>
-		
-		<p>
+		<div class="input">	
+
 			<label for="id_kamar">ID_Kamar: </label>
             <textarea name="id_kamar"></textarea>
-		</p>
-		<p>
+
 			<label for="golongan">Golongan: </label>
 			<input type="text" name="golongan" placeholder="golongan" />
-		</p>
-		<p>
-			<input type="submit" value="Daftar" name="daftar" />
-		</p>
+
+			<input type="submit" class = "button" value="Daftar" name="daftar" />
+		</div>
 		
 		</fieldset>
 	

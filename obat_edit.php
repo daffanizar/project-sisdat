@@ -10,7 +10,7 @@ if(isset($_POST['simpan'])){
 	$nama = $_POST['nama_obat'];
 	
 	// buat query update
-	$sql = "UPDATE obat SET nama = '$nama'  WHERE id_obat='$id'";
+	$sql = "UPDATE obat SET nama_obat = '$nama'  WHERE id_obat='$id'";
 	$query = mysqli_query($db, $sql);
 	
 	// apakah query update berhasil?

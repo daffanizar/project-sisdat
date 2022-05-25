@@ -14,12 +14,12 @@
 	</header>
 	
 	<nav>
-		<a href="dokter_addform.php">[+] Tambah Baru</a>
+		<a href="dokter_addform.php" class = "button">[+] Tambah Baru</a>
 	</nav>
 	
 	<br>
 	
-	<table border="1">
+	<table class="tbl">
 	<thead>
 		<tr>
 			<th>id_dokter</th>
@@ -55,7 +55,7 @@
 	</table>
 	<p>Total: <?php echo mysqli_num_rows($query) ?></p>
 	<nav>
-		<a href="index.php">[<-] Kembali ke Menu</a>
+		<a href="index.php" class = "button1">[<-] Kembali ke Menu</a>
 	</nav>
 	
 	</body>

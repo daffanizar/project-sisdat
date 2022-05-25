@@ -4,7 +4,7 @@
 
 $server = "localhost";
 $user = "root"; //isi dengan use name database kalian
-$password = "passsword"; //isi pake password kalian
+$password = "password"; //isi pake password kalian
 $nama_database = "sisdat"; // isidengan nama database kalian
 
 $db = mysqli_connect($server, $user, $password, $nama_database);

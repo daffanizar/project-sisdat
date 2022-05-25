@@ -38,17 +38,14 @@ if( mysqli_num_rows($query) < 1 ){
 	<form action="ruangan_edit.php" method="POST">
 		
 		<fieldset>
-			
+		<div class="input">	
 			<input type="hidden" name="id" value="<?php echo $siswa['id_kamar'] ?>" />
-		<p>
+
 			<label for="golongan">Golongan: </label>
 			<input type="text" name="golongan" placeholder="golongan" value="<?php echo $siswa['golongan'] ?>" />
-		</p>
-		
-		<p>
-			<input type="submit" value="Simpan" name="simpan" />
-		</p>
-		
+
+			<input type="submit" class = "button" value="Simpan" name="simpan" />
+		</div>
 		</fieldset>
 		
 	

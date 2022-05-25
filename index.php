@@ -23,7 +23,6 @@
 		</ul>
 	</nav>
 	</div>
-	
 	<?php if(isset($_GET['status'])): ?>
 	<p>
 		<?php

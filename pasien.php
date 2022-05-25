@@ -7,6 +7,7 @@
 <body id="bg-form-pasien">
 	<header>
 		<h3>Formuliar Data Pasien</h3>
+		<link rel="stylesheet"  href="style.css">
 	</header>
 	
 	<form action="pasien_masuk.php" method="POST">
@@ -48,7 +49,7 @@
 			<input type="text" name="id_kamar" placeholder="id_kamar" />
 		</p>
 		<p>
-			<input type="submit" value="Daftar" name="daftar" />
+			<input type="submit" class = "button" value="Daftar" name="daftar" />
 		</p>
 		
 		</fieldset>

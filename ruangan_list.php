@@ -13,13 +13,13 @@
 	</header>
 	
 	<nav>
-		<a href="ruangan_addform.php">[+] Tambah Baru</a>
+		<a href="ruangan_addform.php"class = "button">[+] Tambah Baru</a>
 		<link rel="stylesheet"  href="style.css">
 	</nav>
 	
 	<br>
 	
-	<table border="1">
+	<table class="tbl">
 	<thead>
 		<tr>
 			<th>id_kamar</th>
@@ -54,7 +54,7 @@
 	
 	<p>Total: <?php echo mysqli_num_rows($query) ?></p>
 	<nav>
-		<a href="index.php">[<-] Kembali ke Menu</a>
+		<a href="index.php"class = "button1">[<-] Kembali ke Menu</a>
 	</nav>
 	
 	</body>

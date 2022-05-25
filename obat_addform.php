@@ -14,20 +14,16 @@
 		
 		<fieldset>
 		
-        <p>
+		<div class="input">
             <label for="id_obat">Id_Obat: </label>
             <textarea name="id_obat"></textarea>
-        </p>
 
-		<p>
 			<label for="nama_obat">Nama: </label>
 			<input type="text" name="nama_obat" placeholder="nama obat" />
-		</p>
-		
-		<p>
-			<input type="submit" value="Daftar" name="daftar" />
-		</p>
-		
+
+			<input type="submit" class = "button" value="Daftar" name="daftar" />
+
+		</div>
 		</fieldset>
 	
 	</form>

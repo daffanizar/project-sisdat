@@ -38,20 +38,17 @@ if( mysqli_num_rows($query) < 1 ){
 	<form action="dokter_edit.php" method="POST">
 		
 		<fieldset>
-			
+		<div class="input">	
 			<input type="hidden" name="id" value="<?php echo $dokter['id_dokter'] ?>" />
-		<p>
+
 			<label for="nama_dokter">Nama: </label>
 			<input type="text" name="nama" placeholder="nama lengkap" value="<?php echo $dokter['nama_dokter'] ?>" />
-		</p>
-		<p>
+
 			<label for="spesialis">Spesialis : </label>
 			<input type="text" name="spesialis" placeholder="spesialis" value="<?php echo $dokter['spesialis'] ?>" />
-		</p>
-		<p>
-			<input type="submit" value="Simpan" name="simpan" />
-		</p>
-		
+
+			<input type="submit" class = "button" value="Simpan" name="simpan" />
+		</div >	
 		</fieldset>
 		
 	
